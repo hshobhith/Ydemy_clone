@@ -18,7 +18,8 @@ const PORT = process.env.PORT || 5000;
 const MONGO_URI = "mongodb+srv://hshobhith:Qwe%4012345@cluster0.rir6b.mongodb.net/myDatabase?retryWrites=true&w=majority";
 
 app.use(cors({
-    origin : "http://localhost:5173",
+    // origin : "http://localhost:5173",
+    origin : "https://ydemy-clone-frontend.vercel.app",
     methods : ["GET", "PUT", "POST", "DELETE"],
     allowedHeaders : ["Content-Type", "Authorization"],
 }));
