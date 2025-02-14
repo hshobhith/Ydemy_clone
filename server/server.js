@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
@@ -14,7 +14,7 @@ const studentCourseProgressRoutes = require("./routes/student-routes/course-prog
 
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000 || 5000;
 const MONGO_URI = "mongodb+srv://hshobhith:Qwe%4012345@cluster0.rir6b.mongodb.net/myDatabase?retryWrites=true&w=majority";
 
 app.use(cors({
