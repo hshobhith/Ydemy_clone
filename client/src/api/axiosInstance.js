@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-     baseURL : 'http://localhost:5000'
+     // baseURL : 'http://localhost:5000'
+     baseURL : 'https://ydemy-clone-backend.onrender.com'
     // baseURL : 'https://ydemy-clone-api.vercel.app'
 });
 
