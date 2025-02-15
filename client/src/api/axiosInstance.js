@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-     // baseURL : 'http://localhost:5000'
-    baseURL : 'https://ydemy-clone-api.vercel.app'
+     baseURL : 'http://localhost:5000'
+    // baseURL : 'https://ydemy-clone-api.vercel.app'
 });
 
 axiosInstance.interceptors.request.use(config=> {
