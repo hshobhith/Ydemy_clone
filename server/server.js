@@ -19,8 +19,8 @@ const MONGO_URI = "mongodb+srv://hshobhith:Qwe%4012345@cluster0.rir6b.mongodb.ne
 
 app.use(cors({
     // origin : "http://localhost:5173",
-    origin : "https://ydemy-clone-frontend.onrender.com",
-    // origin : "https://ydemy-clone-frontend.vercel.app",
+    //origin : "https://ydemy-clone-frontend.onrender.com",
+    origin : "https://ydemy-clone-frontend.vercel.app",
     methods : ["GET", "PUT", "POST", "DELETE"],
     allowedHeaders : ["Content-Type", "Authorization"],
 }));
